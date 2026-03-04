@@ -1,0 +1,173 @@
+Devfolio - A Software Engineer Portfolio
+
+This is a personal portfolio made by codewithsadee
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?0D57B5302506A6B1FDEE09DD05B6322C0EFE
+
+
+
+#---------- HEADER ----------#
+
+alt = logo
+
+<span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
+
+<span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
+
+
+
+#---------- HERO ----------#
+
+alt = Ahmed Khalid
+
+Software Engineer
+
+Ahmed Khalid
+
+Lorem ipsum dolor sit amet consectetur. Quam ut feugiat ut porta morbi lobortis tristique.
+
+<span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+0213eason@gmail.com
+
+<span class="material-symbols-outlined" aria-hidden="true"> call </span>
++88683929160
+
+
+
+#---------- ABOUT CARD ----------#
+
+About
+
+A passionate software engineer with a strong background in Computer Science.
+
+<span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+Taipei, Taiwan
+
+<span class="material-symbols-outlined" aria-hidden="true"> work </span>
+TechGulf Solutions
+
+<span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
+https://example.com
+
+
+
+#---------- PRIMARY TAB ----------#
+
+Projects
+
+Resume
+
+Contact
+
+
+
+#---------- PROJECT ----------#
+
+alt = Pixstock - Stock Media App
+
+Web App
+Pixstock - Stock Media App
+
+alt = Cook.io - Recipe App
+
+Web App
+Cook.io - Recipe App
+
+alt = GitFinder - Github User Finder
+
+Web App
+GitFinder - Github User Finder
+
+alt = Weatherio - Live Weather App
+
+Web App
+Weatherio - Live Weather App
+
+alt = Tvflix - Netflix Clone 2.0
+
+Web App
+Tvflix - Netflix Clone 2.0
+
+alt = Travelia - Travel Website
+
+Website
+Travelia - Travel Website
+
+
+
+#---------- RESUME ----------#
+
+Experience
+
+Coding TA, Apple Buds, Inc（Orange Apple）
+11/2025 - Present
+
+Assisted in programming courses and mentored students to master coding logic through hands-on projects.
+
+Store Associate, 7-ELEVEn (Taiwan)
+07/2024 - 09/2024
+
+Managed multi-tasking operations and delivered professional customer service under high-pressure scenarios.
+
+Education
+Department of Information and Computer Engineering, Chung Yuan Christian University(Taiwan)
+2024 - 2028
+
+Taipei Municipal Neihu Senior High School(Taiwan)
+2021 - 2024
+
+Huaxing High School(Taiwan)
+2018 - 2021
+
+Skills and Technologies
+
+C++
+HTML5
+CSS3
+JavaScript
+Python
+Swift
+GitHub
+VS Code
+
+
+
+
+#---------- CONTACT ----------#
+
+Contact Info
+
+<span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+
+Mail Us
+0213eason@gmail.com
+0213eason@gmail.com
+
+<span class="material-symbols-outlined" aria-hidden="true"> call </span>
+
+Contact Us
+tel:+88683929160
+tel:+88683929160
+
+<span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+
+Address
+Al Azbakeya, Cairo Governorate 4320001, Egypt
+
+Social Info
+
+Let’s Work Together.
+
+Name*
+Email*
+Subject
+Message*
+
+Send Message
+
+
+
+
+#---------- FOOTER ----------#
+
+@Copyright Yi
