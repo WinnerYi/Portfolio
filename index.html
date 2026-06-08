@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" data-theme = "dark">
+<html lang="en" data-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!--  #meta tags -->
     <title>Devfolio - A Software Engineer Portfolio</title>
     <meta name="title" content="Devfolio - A Software Engineer Portfolio">
@@ -11,25 +12,26 @@
 
     <!-- #favicon -->
     <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
-    
+
     <!-- #google font link  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
-    rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
 
     <!-- #material icon link -->
     <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
     <!-- #custom css link -->
-     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
     <!-- #TOP BAR -->
-    
+
     <header class="topbar">
 
         <!-- <a href="#" class="logo">
@@ -38,10 +40,10 @@
         </a> -->
 
         <button class="icon-btn theme-btn" data-theme-btn>
-          <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
-          <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
+            <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
+            <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
 
-          <div class="state-layer"></div>
+            <div class="state-layer"></div>
         </button>
     </header>
 
@@ -53,33 +55,33 @@
                 <div class="container">
 
                     <figure class="hero-banner img-holder" style="--width: 240; --height: 240;">
-                        <img src="./assets/images/avatar.png" width="240" height="240" 
-                        alt="Yi_Hsun Tsai"  class="img-cover">
+                        <img src="./assets/images/myself_gimini.png" width="240" height="240" alt="Yi_Hsun Tsai"
+                            class="img-cover">
                     </figure>
 
                     <div class="hero-content">
                         <span class="label-large section-subtitle">Software Engineer</span>
 
                         <h1 class="display-small">Yi_Hsun Tsai</h1>
-                        
+
                         <p class="body-large section-text">
-                            HAhahahaha aAHhahahahahaha.
+                            CYCU ICE
                         </p>
 
                         <div class="btn-wrapper">
                             <a href="mailto:0213eason@gmail.com" class="chip">
-                               <span class="material-symbols-outlined" aria-hidden="true"> mail</span> 
-                            
+                                <span class="material-symbols-outlined" aria-hidden="true"> mail</span>
+
                                 <span class="label-large">0213eason@gmail.com</span>
-                           
+
                                 <div class="state-layer"></div>
                             </a>
 
                             <a href="tel:+88683929160" class="chip">
-                               <span class="material-symbols-outlined" aria-hidden="true"> call</span> 
-                            
+                                <span class="material-symbols-outlined" aria-hidden="true"> call</span>
+
                                 <span class="label-large">+88683929160</span>
-                           
+
                                 <div class="state-layer"></div>
                             </a>
 
@@ -88,7 +90,7 @@
 
                 </div>
             </section>
-       
+
 
 
             <!-- #MAIN CONTENT -->
@@ -125,60 +127,63 @@
 
                 </div>
 
-            <div>
+                <div>
 
-                <!-- #PRIMARY TABS -->
+                    <!-- #PRIMARY TABS -->
 
-                <div class="primary-tabs">
+                    <div class="primary-tabs">
 
-                    <button class="tab-btn " data-tab-btn="project"> 
-                        <span class="tab-text title-small">Projects</span>
+                        <button class="tab-btn " data-tab-btn="project">
+                            <span class="tab-text title-small">Projects</span>
 
-                        <div class="state-layer"></div>
-                    </button>
+                            <div class="state-layer"></div>
+                        </button>
 
-                    <button class="tab-btn active" data-tab-btn="resume"> 
-                        <span class="tab-text title-small">Resume</span>
+                        <button class="tab-btn active" data-tab-btn="resume">
+                            <span class="tab-text title-small">Resume</span>
 
-                        <div class="state-layer"></div>
-                    </button>
+                            <div class="state-layer"></div>
+                        </button>
 
-                    <button class="tab-btn" data-tab-btn="contact"> 
-                        <span class="tab-text title-small">Contact</span>
+                        <button class="tab-btn" data-tab-btn="contact">
+                            <span class="tab-text title-small">Contact</span>
 
-                        <div class="state-layer"></div>
-                    </button>
+                            <div class="state-layer"></div>
+                        </button>
 
-                </div>
-
-
+                    </div>
 
 
-                <!-- #PROJECT -->
 
-                <section class="section tab-content" data-tab-content="project">
-                    <div class="container">
-                        <div class="profect-list">
-                          
-                            <!-- <div class="card">
 
-                                <figure class="card-banner img-holder" style="--width: 334; 
+                    <!-- #PROJECT -->
+
+                    <section class="section tab-content" data-tab-content="project">
+                        <div class="container">
+                            <div class="profect-list">
+
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; 
                                 --height: 180;">
-                                    <img src="./assets/images/project-1.png" alt="APP TEST1" 
-                                    width= "334" height="180" class="img-cover">
+                                        <img src="./assets/images/project1.png" alt="APP TEST1" width="334" height="180"
+                                            class="img-cover">
 
-                                </figure>
+                                    </figure>
 
-                                <div class="card-content">
-                                    
-                                    <span class="label-large card-subtitle">Web APP</span>
+                                    <div class="card-content">
 
-                                    <h3 class="title-large card-title">ABC - media APP</h3>
+                                        <span class="label-large card-subtitle">Pytghon_Learning_WEB</span>
+
+                                        <h3 class="title-large card-title">Learning_WEB</h3>
+                                    </div>
+
+                                    <a href="https://sites.google.com/d/17wIbK1n2WZLHs8DKaTL-RaWLem4tWsj2/p/1V8dNPVkJ26cA5-T7j4h91dYS1qDr-lkd/edit"
+                                        class="state-layer"></a>
+
                                 </div>
 
-                                <a href="#" class="state-layer"></a>
-
-                            </div>
+                                <!-- 
 
                             <div class="card">
 
@@ -280,188 +285,189 @@
 
                             </div> -->
 
+                            </div>
+
+
                         </div>
-                        
-                    
-                    </div>
 
-                </section>
+                    </section>
 
 
 
-                <!-- #RESUME -->
+                    <!-- #RESUME -->
 
-                <section class="section tab-content resume-tab" 
-                data-tab-content="resume">
+                    <section class="section tab-content resume-tab" data-tab-content="resume">
 
-                    <div class="container">
+                        <div class="container">
 
-                        <h2 class="section-title title-small"> Experience</h2>
+                            <h2 class="section-title title-small"> Experience</h2>
 
-                        <ul class="list">
+                            <ul class="list">
 
-                            <li class="resume-item">
-                                <div class="resume-card">
+                                <li class="resume-item">
+                                    <div class="resume-card">
 
-                                    <p class="body-large">Coding TA, Apple Buds, Inc (Orange Apple)</p>
+                                        <p class="body-large">Coding TA, Apple Buds, Inc (Orange Apple)</p>
 
-                                    <span class="label-medium card-subtitle">11/2025 - Present</span>
+                                        <span class="label-medium card-subtitle">11/2025 - Present</span>
 
-                                    <span class="body-medium card-text">Assisted in programming courses and mentored students to master coding logic through hands-on projects.</span>
+                                        <span class="body-medium card-text">Assisted in programming courses and mentored
+                                            students to master coding logic through hands-on projects.</span>
 
-                                </div>
-
-                            </li>
-
-                            <li class="resume-item">
-                                <div class="resume-card">
-
-                                    <p class="body-large">Store Associate, 7-ELEVEn (Taiwan)</p>
-
-                                    <span class="label-medium card-subtitle">07/2024 - 09/2024</span>
-
-                                    <span class="body-medium card-text">Managed multi-tasking operations and delivered professional customer service under high-pressure scenarios.</span>
-
-                                </div>
-
-                            </li>
-
-                        </ul>
-
-                        <h2 class="section-title title-small">Education</h2>
-                        <ul class="list">
-
-                            <li class="resume-item">
-                                <div class="resume-card">
-
-                                    <p class="body-large">
-                                        Department of Information and Computer Engineering,
-                                         Chung Yuan Christian University(Taiwan)
-                                    </p>
-
-                                    <span class="label-medium card-subtitle">2024 - 2028</span>
-                                
-                                </div>
-
-                            </li>
-
-                            <li class="resume-item">
-                                <div class="resume-card">
-
-                                    <p class="body-large">
-                                        Taipei Municipal Neihu Senior High School(Taiwan)
-                                    </p>
-
-                                    <span class="label-medium card-subtitle">2021 - 2024</span>
-                                
-                                </div>
-
-                            </li>
-
-                            <li class="resume-item">
-                                <div class="resume-card">
-
-                                    <p class="body-large">
-                                        Huaxing High School(Taiwan)
-                                    </p>
-
-                                    <span class="label-medium card-subtitle">2018 - 2021</span>
-                                
-                                </div>
-
-                            </li>
-
-                        </ul>
-
-                        <h2 class="section-title title-small">Skills and Technologies</h2>
-
-                        <ul class="resume-bottom-list">
-
-                            <li class="resume-bottom-item">
-                                <img src="./assets/images/c++.png" width="30" height="30" loading="lazy"
-                                alt="C++" class="icon">
-
-                                <span class="label-medium">C++</span>
-                            </li>
-
-                            <li class="resume-bottom-item">
-                                <img src="./assets/images/html5.svg" width="28" height="28" loading="lazy"
-                                alt="HTML5" class="icon">
-
-                                <span class="label-medium">HTML5</span>
-                            </li>
-
-                            <li class="resume-bottom-item">
-                                <img src="./assets/images/css3.svg" width="28" height="28" loading="lazy"
-                                alt="CSS3" class="icon">
-
-                                <span class="label-medium">CSS3</span>
-                            </li>
-
-                            <li class="resume-bottom-item">
-                                <img src="./assets/images/javascript.svg" width="28" height="28" loading="lazy"
-                                alt="JavaScript" class="icon">
-
-                                <span class="label-medium">JavaScript</span>
-                            </li>
-
-                            <li class="resume-bottom-item">
-                                <img src="./assets/images/python.png" width="28" height="28" loading="lazy"
-                                alt="Python" class="icon">
-
-                                <span class="label-medium">Python</span>
-                            </li>
-
-                             <li class="resume-bottom-item">
-                                <img src="./assets/images/swift.png" width="28" height="28" loading="lazy"
-                                alt="Swift" class="icon">
-
-                                <span class="label-medium">Swift</span>
-                            </li>
-
-                            <li class="resume-bottom-item">
-                                <img src="./assets/images/github.svg" width="28" height="28" loading="lazy"
-                                alt="Github" class="icon">
-
-                                <span class="label-medium">Github</span>
-                            </li>
-
-                            <li class="resume-bottom-item">
-                                <img src="./assets/images/VS_code.svg" width="28" height="28" loading="lazy"
-                                alt="VS code" class="icon">
-
-                                <span class="label-medium">VS code</span>
-                            </li>
-
-                        </ul>
-
-
-                    </div>
-            
-            
-                </section>
-
-
-
-                <!-- #CONTACT -->
-                 <section class="section tab-content contact-tab"
-                 data-tab-content="contact">
-                    <div class="container">
-
-                        <div class="contact-info">
-
-                            <h4 class="section-title title-small">Contact Info</h4>
-
-                            <ul class="contact-info-list">
-
-                                <li class="contact-info-item">
-
-                                    <div class="icon-box">
-                                        <span class="material-symbols-outlined" aria-hidden="true"> 
-                                        mail </span>
                                     </div>
 
-                                    <div class="info-content">
+                                </li>
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+
+                                        <p class="body-large">Store Associate, 7-ELEVEn (Taiwan)</p>
+
+                                        <span class="label-medium card-subtitle">07/2024 - 09/2024</span>
+
+                                        <span class="body-medium card-text">Managed multi-tasking operations and
+                                            delivered professional customer service under high-pressure
+                                            scenarios.</span>
+
+                                    </div>
+
+                                </li>
+
+                            </ul>
+
+                            <h2 class="section-title title-small">Education</h2>
+                            <ul class="list">
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+
+                                        <p class="body-large">
+                                            Department of Information and Computer Engineering,
+                                            Chung Yuan Christian University(Taiwan)
+                                        </p>
+
+                                        <span class="label-medium card-subtitle">2024 - 2028</span>
+
+                                    </div>
+
+                                </li>
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+
+                                        <p class="body-large">
+                                            Taipei Municipal Neihu Senior High School(Taiwan)
+                                        </p>
+
+                                        <span class="label-medium card-subtitle">2021 - 2024</span>
+
+                                    </div>
+
+                                </li>
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+
+                                        <p class="body-large">
+                                            Huaxing High School(Taiwan)
+                                        </p>
+
+                                        <span class="label-medium card-subtitle">2018 - 2021</span>
+
+                                    </div>
+
+                                </li>
+
+                            </ul>
+
+                            <h2 class="section-title title-small">Skills and Technologies</h2>
+
+                            <ul class="resume-bottom-list">
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/c++.png" width="30" height="30" loading="lazy" alt="C++"
+                                        class="icon">
+
+                                    <span class="label-medium">C++</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/html5.svg" width="28" height="28" loading="lazy"
+                                        alt="HTML5" class="icon">
+
+                                    <span class="label-medium">HTML5</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/css3.svg" width="28" height="28" loading="lazy" alt="CSS3"
+                                        class="icon">
+
+                                    <span class="label-medium">CSS3</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/javascript.svg" width="28" height="28" loading="lazy"
+                                        alt="JavaScript" class="icon">
+
+                                    <span class="label-medium">JavaScript</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/python.png" width="28" height="28" loading="lazy"
+                                        alt="Python" class="icon">
+
+                                    <span class="label-medium">Python</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/swift.png" width="28" height="28" loading="lazy"
+                                        alt="Swift" class="icon">
+
+                                    <span class="label-medium">Swift</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/github.svg" width="28" height="28" loading="lazy"
+                                        alt="Github" class="icon">
+
+                                    <span class="label-medium">Github</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/VS_code.svg" width="28" height="28" loading="lazy"
+                                        alt="VS code" class="icon">
+
+                                    <span class="label-medium">VS code</span>
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+
+
+                    </section>
+
+
+
+                    <!-- #CONTACT -->
+                    <section class="section tab-content contact-tab" data-tab-content="contact">
+                        <div class="container">
+
+                            <div class="contact-info">
+
+                                <h4 class="section-title title-small">Contact Info</h4>
+
+                                <ul class="contact-info-list">
+
+                                    <li class="contact-info-item">
+
+                                        <div class="icon-box">
+                                            <span class="material-symbols-outlined" aria-hidden="true">
+                                                mail </span>
+                                        </div>
+
+                                        <div class="info-content">
 
                                             <p class="label-small info-title">Mail Us</p>
 
@@ -471,19 +477,19 @@
                                             <a href="mailto:0213eason@gmail.com" class="label-small 
                                             info-text">0213eason@gmail.com</a>
 
-                                     </div>
-                                    
+                                        </div>
 
-                                </li>
 
-                                <li class="contact-info-item">
+                                    </li>
 
-                                    <div class="icon-box">
-                                        <span class="material-symbols-outlined" aria-hidden="true"> 
-                                        call </span>
-                                    </div>
+                                    <li class="contact-info-item">
 
-                                    <div class="info-content">
+                                        <div class="icon-box">
+                                            <span class="material-symbols-outlined" aria-hidden="true">
+                                                call </span>
+                                        </div>
+
+                                        <div class="info-content">
 
                                             <p class="label-small info-title">Contact Us</p>
 
@@ -493,44 +499,40 @@
                                             <a href="tel:+88683929160" class="label-small 
                                             info-text">+88683929160</a>
 
-                                     </div>
-                                    
+                                        </div>
 
-                                </li>
 
-                                <li class="contact-info-item">
+                                    </li>
 
-                                    <div class="icon-box">
-                                        <span class="material-symbols-outlined" aria-hidden="true"> 
-                                        location_on </span>
-                                    </div>
+                                    <li class="contact-info-item">
 
-                                    <div class="info-content">
+                                        <div class="icon-box">
+                                            <span class="material-symbols-outlined" aria-hidden="true">
+                                                location_on </span>
+                                        </div>
+
+                                        <div class="info-content">
 
                                             <p class="label-small info-title">Address</p>
 
                                             <a href="#" class="label-small 
                                             info-text">Taipei, Taiwan</a>
 
-                                     </div>
-                                    
+                                        </div>
 
-                                </li>
 
-                            </ul>
+                                    </li>
 
-                            <h4 class="title-small">Social Info</h4>
+                                </ul>
 
-                            <div class="social-list">
+                                <h4 class="title-small">Social Info</h4>
 
-                                <a href="https://github.com/WinnerYi" class="social-item">
-                                    <svg
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 16 16"
-                                        fill="currentColor"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59
+                                <div class="social-list">
+
+                                    <a href="https://github.com/WinnerYi" class="social-item">
+                                        <svg width="24" height="24" viewBox="0 0 16 16" fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59
                                         .4.07.55-.17.55-.38
                                         0-.19-.01-.82-.01-1.49
                                         -2.01.37-2.53-.49-2.69-.94
@@ -553,86 +555,74 @@
                                         0 1.07-.01 1.93-.01 2.2
                                         0 .21.15.46.55.38
                                         A8.013 8.013 0 0016 8
-                                        c0-4.42-3.58-8-8-8z"/>
-                                    </svg>
+                                        c0-4.42-3.58-8-8-8z" />
+                                        </svg>
 
-                                </a>
+                                    </a>
 
-                                <a href="https://x.com/Junivle" class="social-item">
-                                    <svg
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="currentColor"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M18.244 2H21.552L14.326 10.26L22.828 22H16.16L10.93 14.89
-                                        L4.91 22H1.6L9.33 13.14L1.172 2H8.01L12.73 8.39L18.244 2Z"/>
-                                    </svg>
-                                </a>
+                                    <a href="https://x.com/Junivle" class="social-item">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M18.244 2H21.552L14.326 10.26L22.828 22H16.16L10.93 14.89
+                                        L4.91 22H1.6L9.33 13.14L1.172 2H8.01L12.73 8.39L18.244 2Z" />
+                                        </svg>
+                                    </a>
 
-                                <a href="https://www.linkedin.com/in/eason-tsai-8aa7793a5/" class="social-item">
-                                    <svg
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="currentColor"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6C1.12 6 0 4.88 0 3.5C0 2.12 1.12 1 2.5 1C3.88 1 4.98 2.12 4.98 3.5ZM0.22 8.99H4.78V24H0.22V8.99ZM7.22 8.99H11.6V10.66H11.68C12.3 9.52 13.9 8.36 16.08 8.36C21.02 8.36 22 11.28 22 16.18V24H17.44V16.92C17.44 14.76 17.4 11.98 14.3 11.98C11.18 11.98 10.78 14.38 10.78 16.76V24H6.22V8.99H7.22Z"/>
-                                    </svg>
-                                </a>
+                                    <a href="https://www.linkedin.com/in/eason-tsai-8aa7793a5/" class="social-item">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6C1.12 6 0 4.88 0 3.5C0 2.12 1.12 1 2.5 1C3.88 1 4.98 2.12 4.98 3.5ZM0.22 8.99H4.78V24H0.22V8.99ZM7.22 8.99H11.6V10.66H11.68C12.3 9.52 13.9 8.36 16.08 8.36C21.02 8.36 22 11.28 22 16.18V24H17.44V16.92C17.44 14.76 17.4 11.98 14.3 11.98C11.18 11.98 10.78 14.38 10.78 16.76V24H6.22V8.99H7.22Z" />
+                                        </svg>
+                                    </a>
 
-                                <a href="https://www.instagram.com/mr.tsai_winner/" class="social-item">
-                                    <svg
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="currentColor"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.428.403a4.92 4.92 0 011.675 1.093 4.92 4.92 0 011.093 1.675c.163.458.347 1.258.403 2.428.058 1.266.07 1.645.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.428a4.902 4.902 0 01-1.093 1.675 4.902 4.902 0 01-1.675 1.093c-.458.163-1.258.347-2.428.403-1.266.058-1.645.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.428-.403a4.92 4.92 0 01-1.675-1.093 4.92 4.92 0 01-1.093-1.675c-.163-.458-.347-1.258-.403-2.428-.058-1.266-.07-1.645-.07-4.85s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.428a4.902 4.902 0 011.093-1.675 4.902 4.902 0 011.675-1.093c.458-.163 1.258-.347 2.428-.403 1.266-.058 1.645-.07 4.85-.07zm0-2.163C8.741 0 8.332.012 7.052.07 5.773.128 4.87.308 4.068.635a6.987 6.987 0 00-2.55 1.643A6.987 6.987 0 00.635 4.068C.308 4.87.128 5.773.07 7.052.012 8.332 0 8.741 0 12s.012 3.668.07 4.948c.058 1.279.238 2.182.565 2.984a6.987 6.987 0 001.643 2.55 6.987 6.987 0 002.55 1.643c.802.327 1.705.507 2.984.565C8.332 23.988 8.741 24 12 24s3.668-.012 4.948-.07c1.279-.058 2.182-.238 2.984-.565a6.987 6.987 0 002.55-1.643 6.987 6.987 0 001.643-2.55c.327-.802.507-1.705.565-2.984C23.988 15.668 24 15.259 24 12s-.012-3.668-.07-4.948c-.058-1.279-.238-2.182-.565-2.984a6.987 6.987 0 00-1.643-2.55 6.987 6.987 0 00-2.55-1.643c-.802-.327-1.705-.507-2.984-.565C15.668.012 15.259 0 12 0zM12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a3.999 3.999 0 110-7.998 3.999 3.999 0 010 7.998zm6.406-11.845a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"/>
-                                    </svg>
-                                </a>
+                                    <a href="https://www.instagram.com/mr.tsai_winner/" class="social-item">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.428.403a4.92 4.92 0 011.675 1.093 4.92 4.92 0 011.093 1.675c.163.458.347 1.258.403 2.428.058 1.266.07 1.645.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.428a4.902 4.902 0 01-1.093 1.675 4.902 4.902 0 01-1.675 1.093c-.458.163-1.258.347-2.428.403-1.266.058-1.645.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.428-.403a4.92 4.92 0 01-1.675-1.093 4.92 4.92 0 01-1.093-1.675c-.163-.458-.347-1.258-.403-2.428-.058-1.266-.07-1.645-.07-4.85s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.428a4.902 4.902 0 011.093-1.675 4.902 4.902 0 011.675-1.093c.458-.163 1.258-.347 2.428-.403 1.266-.058 1.645-.07 4.85-.07zm0-2.163C8.741 0 8.332.012 7.052.07 5.773.128 4.87.308 4.068.635a6.987 6.987 0 00-2.55 1.643A6.987 6.987 0 00.635 4.068C.308 4.87.128 5.773.07 7.052.012 8.332 0 8.741 0 12s.012 3.668.07 4.948c.058 1.279.238 2.182.565 2.984a6.987 6.987 0 001.643 2.55 6.987 6.987 0 002.55 1.643c.802.327 1.705.507 2.984.565C8.332 23.988 8.741 24 12 24s3.668-.012 4.948-.07c1.279-.058 2.182-.238 2.984-.565a6.987 6.987 0 002.55-1.643 6.987 6.987 0 001.643-2.55c.327-.802.507-1.705.565-2.984C23.988 15.668 24 15.259 24 12s-.012-3.668-.07-4.948c-.058-1.279-.238-2.182-.565-2.984a6.987 6.987 0 00-1.643-2.55 6.987 6.987 0 00-2.55-1.643c-.802-.327-1.705-.507-2.984-.565C15.668.012 15.259 0 12 0zM12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a3.999 3.999 0 110-7.998 3.999 3.999 0 010 7.998zm6.406-11.845a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z" />
+                                        </svg>
+                                    </a>
+
+                                </div>
 
                             </div>
 
+                            <div class="contact-form">
+
+                                <h3 class="title-large">Let's Work Together!!</h3>
+
+                                <form action="" method="post" class="input-wrapper">
+
+                                    <input type="text" name="name" placeholder="Name*" required class="input-field">
+
+                                    <input type="email" name="email" placeholder="Email*" required class="input-field">
+
+                                    <input type="text" name="subject" placeholder="Subject" required
+                                        class="input-field">
+
+                                    <textarea name="message" placeholder="Message*" required
+                                        class="textarea"></textarea>
+
+                                    <button class="btn" type="submit">
+                                        <span class="label-large">Send Message</span>
+
+                                        <div class="state-layer"></div>
+                                    </button>
+
+                                </form>
+
+                            </div>
+
+
+
                         </div>
+                    </section>
 
-                        <div class="contact-form">
-
-                            <h3 class="title-large">Let's Work Together!!</h3>
-
-                            <form action="" method="post" class="input-wrapper">
-
-                                <input type="text" name="name" placeholder="Name*" required
-                                 class="input-field">
-
-                                 <input type="email" name="email" placeholder="Email*" required
-                                 class="input-field">
-
-                                 <input type="text" name="subject" placeholder="Subject" required
-                                 class="input-field">
-
-                                 <textarea name="message" placeholder="Message*" required
-                                 class="textarea"></textarea>
-
-                                 <button class="btn" type="submit">
-                                    <span class="label-large">Send Message</span>
-
-                                    <div class="state-layer"></div>
-                                 </button>
-
-                            </form>
-
-                        </div>
-
-
-                                 
-                    </div>
-                </section>
+                </div>
 
             </div>
 
-          </div>
-       
         </article>
     </main>
 
@@ -652,8 +642,9 @@
 
 
 
-<!-- #custom js link -->
-<script src="/js/script.js"></script>
-    
+    <!-- #custom js link -->
+    <script src="/js/script.js"></script>
+
 </body>
+
 </html>
