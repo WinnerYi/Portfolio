@@ -4,647 +4,362 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--  #meta tags -->
-    <title>Devfolio - A Software Engineer Portfolio</title>
-    <meta name="title" content="Devfolio - A Software Engineer Portfolio">
-    <meta name="description" content="This is a personal portfolio made by codewithsadee">
-
-    <!-- #favicon -->
+    <title>Yi_Hsun Tsai | Personal Portfolio</title>
+    <meta name="title" content="Yi_Hsun Tsai | Personal Portfolio">
+    <meta name="description" content="Personal portfolio website for Yi_Hsun Tsai, software engineer and developer.">
     <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
-
-    <!-- #google font link  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
-        rel="stylesheet">
-
-    <!-- #material icon link -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-
-    <!-- #custom css link -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-
-    <!-- #TOP BAR -->
-
     <header class="topbar">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-        <!-- <a href="#" class="logo">
-            <img src="./assets/images/Logo_dark.png" alt="Devfolio" width="145" height="32" class="dark">
-            <img src="./assets/images/Logo_light.png" alt="Devfolio" width="145" height="32" class="light">
-        </a> -->
-
-        <button class="icon-btn theme-btn" data-theme-btn>
-            <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
-            <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
-
+        <button class="icon-btn theme-btn" data-theme-btn aria-label="Toggle theme">
+            <span class="material-symbols-outlined dark" aria-hidden="true">dark_mode</span>
+            <span class="material-symbols-outlined light" aria-hidden="true">light_mode</span>
             <div class="state-layer"></div>
         </button>
     </header>
 
     <main>
         <article>
-            <!-- #Hero -->
-
             <section class="section hero">
-                <div class="container">
-
-                    <figure class="hero-banner img-holder" style="--width: 240; --height: 240;">
-                        <img src="./assets/images/myself_gimini.png" width="240" height="240" alt="Yi_Hsun Tsai"
-                            class="img-cover">
-                    </figure>
-
-                    <div class="hero-content">
-                        <span class="label-large section-subtitle">Software Engineer</span>
-
-                        <h1 class="display-small">Yi_Hsun Tsai</h1>
-
+                <div class="container hero-shell">
+                    <div class="hero-copy reveal">
+                        <span class="eyebrow">Software Engineer • Developer • Learner</span>
+                        <h1 class="display-small">Hi, I'm <span>Yi_Hsun Tsai</span></h1>
                         <p class="body-large section-text">
-                            CYCU ICE
+                            I build clean, thoughtful digital experiences and enjoy turning ideas into practical web products.
+                            Currently studying at CYCU ICE and exploring software, frontend, and problem-solving.
                         </p>
+
+                        <div class="hero-meta">
+                            <span class="status-pill"><i class="dot"></i>Available for opportunities</span>
+                            <span class="location-pill"><span class="material-symbols-outlined">location_on</span>Taipei, Taiwan</span>
+                        </div>
 
                         <div class="btn-wrapper">
                             <a href="mailto:0213eason@gmail.com" class="chip">
-                                <span class="material-symbols-outlined" aria-hidden="true"> mail</span>
-
+                                <span class="material-symbols-outlined" aria-hidden="true">mail</span>
                                 <span class="label-large">0213eason@gmail.com</span>
-
                                 <div class="state-layer"></div>
                             </a>
 
                             <a href="tel:+88683929160" class="chip">
-                                <span class="material-symbols-outlined" aria-hidden="true"> call</span>
-
+                                <span class="material-symbols-outlined" aria-hidden="true">call</span>
                                 <span class="label-large">+88683929160</span>
-
                                 <div class="state-layer"></div>
                             </a>
-
                         </div>
+
+                        <ul class="quick-stats" aria-label="Quick stats">
+                            <li>
+                                <strong>2+</strong>
+                                <span>Years Learning</span>
+                            </li>
+                            <li>
+                                <strong>4+</strong>
+                                <span>Tech Skills</span>
+                            </li>
+                            <li>
+                                <strong>1</strong>
+                                <span>Portfolio Project</span>
+                            </li>
+                        </ul>
                     </div>
 
+                    <div class="hero-visual reveal">
+                        <div class="orb orb-one"></div>
+                        <div class="orb orb-two"></div>
+
+                        <figure class="profile-card img-holder" style="--width: 340; --height: 420;">
+                            <img src="./assets/images/myself_gimini.png" width="340" height="420" alt="Yi_Hsun Tsai" class="img-cover">
+                        </figure>
+
+                        <div class="floating-card card-small">
+                            <span class="material-symbols-outlined" aria-hidden="true">code</span>
+                            <div>
+                                <strong>Frontend</strong>
+                                <small>UI / UX / Web</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
+            <section id="about" class="section about-section">
+                <div class="container">
+                    <div class="section-heading reveal">
+                        <span class="eyebrow">About Me</span>
+                        <h2>Building thoughtful products with curiosity, structure, and creativity.</h2>
+                    </div>
 
+                    <div class="about-grid">
+                        <div class="about-card reveal">
+                            <h3 class="card-title title-medium">Profile</h3>
+                            <p class="body-medium card-text">
+                                A passionate software engineer with a strong interest in design, logic, and web development.
+                                I enjoy translating ideas into user-friendly interfaces and learning through building real projects.
+                            </p>
 
-            <!-- #MAIN CONTENT -->
-            <div class="article">
-                <div class="about-card">
+                            <ul class="about-list">
+                                <li class="list-item">
+                                    <span class="material-symbols-outlined" aria-hidden="true">location_on</span>
+                                    <span class="label-medium">Taipei, Taiwan</span>
+                                </li>
+                                <li class="list-item">
+                                    <span class="material-symbols-outlined" aria-hidden="true">work</span>
+                                    <span class="label-medium">Coding TA, Apple Buds (Orange Apple)</span>
+                                </li>
+                                <li class="list-item">
+                                    <span class="material-symbols-outlined" aria-hidden="true">language</span>
+                                    <a href="https://orangeapple.co" class="label-medium">orangeapple.co</a>
+                                </li>
+                            </ul>
+                        </div>
 
-                    <h2 class="card-title title-medium">About</h2>
-
-                    <p class="body-medium card-text">
-                        A passionate software engineer with a strong background in Computer Science.
-                    </p>
-
-                    <ul class="about-list">
-
-                        <li class="list-item">
-                            <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
-
-                            <span class="label-medium">Taipei, Taiwan</span>
-                        </li>
-
-                        <li class="list-item">
-                            <span class="material-symbols-outlined" aria-hidden="true"> work </span>
-
-                            <span class="label-medium">Apple Buds, Inc（Orange Apple）</span>
-                        </li>
-
-                        <li class="list-item">
-                            <span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
-
-                            <a href="https://orangeapple.co" class="label-medium">https://orangeapple.co</a>
-                        </li>
-
-                    </ul>
-
+                        <div class="info-stack reveal">
+                            <div class="info-card">
+                                <span class="label-medium">Current focus</span>
+                                <strong>Frontend + web engineering</strong>
+                            </div>
+                            <div class="info-card">
+                                <span class="label-medium">Education</span>
+                                <strong>CYCU ICE</strong>
+                            </div>
+                            <div class="info-card">
+                                <span class="label-medium">Interests</span>
+                                <strong>UI/UX, product thinking, learning</strong>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
+            <div class="article">
                 <div>
-
-                    <!-- #PRIMARY TABS -->
-
-                    <div class="primary-tabs">
-
-                        <button class="tab-btn " data-tab-btn="project">
+                    <div class="primary-tabs reveal">
+                        <button class="tab-btn" data-tab-btn="project">
                             <span class="tab-text title-small">Projects</span>
-
                             <div class="state-layer"></div>
                         </button>
 
                         <button class="tab-btn active" data-tab-btn="resume">
                             <span class="tab-text title-small">Resume</span>
-
                             <div class="state-layer"></div>
                         </button>
 
                         <button class="tab-btn" data-tab-btn="contact">
                             <span class="tab-text title-small">Contact</span>
-
                             <div class="state-layer"></div>
                         </button>
-
                     </div>
 
-
-
-
-                    <!-- #PROJECT -->
-
-                    <section class="section tab-content" data-tab-content="project">
+                    <section id="projects" class="section tab-content" data-tab-content="project">
                         <div class="container">
-                            <div class="profect-list">
+                            <div class="section-heading project-heading reveal">
+                                <span class="eyebrow">Featured Work</span>
+                                <h2>Projects that combine learning, design, and practice.</h2>
+                            </div>
 
-                                <div class="card">
-
-                                    <figure class="card-banner img-holder" style="--width: 334; 
-                                --height: 180;">
-                                        <img src="./assets/images/project1.png" alt="APP TEST1" width="334" height="180"
-                                            class="img-cover">
-
+                            <div class="project-list reveal">
+                                <article class="card project-card">
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                        <img src="./assets/images/project1.png" alt="Learning Web project" width="334" height="180" class="img-cover">
                                     </figure>
-
                                     <div class="card-content">
-
-                                        <span class="label-large card-subtitle">Pytghon_Learning_WEB</span>
-
+                                        <span class="label-large card-subtitle">Python Learning Web</span>
                                         <h3 class="title-large card-title">Learning_WEB</h3>
+                                        <p class="body-medium card-text">A learning-oriented web project focused on simplifying coding concepts and encouraging self-study.</p>
                                     </div>
+                                    <div class="project-meta">
+                                        <span>HTML</span>
+                                        <span>CSS</span>
+                                        <span>JavaScript</span>
+                                    </div>
+                                    <a href="https://sites.google.com/d/17wIbK1n2WZLHs8DKaTL-RaWLem4tWsj2/p/1V8dNPVkJ26cA5-T7j4h91dYS1qDr-lkd/edit" class="state-layer" aria-label="Open Learning_WEB project"></a>
+                                </article>
 
-                                    <a href="https://sites.google.com/d/17wIbK1n2WZLHs8DKaTL-RaWLem4tWsj2/p/1V8dNPVkJ26cA5-T7j4h91dYS1qDr-lkd/edit"
-                                        class="state-layer"></a>
+                                <article class="card project-card muted-card reveal">
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">In progress</span>
+                                        <h3 class="title-large card-title">Portfolio Evolution</h3>
+                                        <p class="body-medium card-text">A modern personal website designed to showcase projects, skills, and personality in a cleaner visual language.</p>
+                                    </div>
+                                    <div class="project-meta">
+                                        <span>Design</span>
+                                        <span>UI</span>
+                                        <span>Animation</span>
+                                    </div>
+                                </article>
 
-                                </div>
-
-                                <!-- 
-
-                            <div class="card">
-
-                                <figure class="card-banner img-holder" style="--width: 334; 
-                                --height: 180;">
-                                    <img src="./assets/images/project-2.png" alt="APP TEST2" 
-                                    width= "334" height="180" class="img-cover">
-
-                                </figure>
-
-                                <div class="card-content">
-                                    
-                                    <span class="label-large card-subtitle">Web APP</span>
-
-                                    <h3 class="title-large card-title">ABC - media APP</h3>
-                                </div>
-
-                                <a href="#" class="state-layer"></a>
-
+                                <article class="card project-card muted-card reveal">
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Next up</span>
+                                        <h3 class="title-large card-title">Product & App Ideas</h3>
+                                        <p class="body-medium card-text">Exploring practical app concepts and interactive user experiences driven by real-world problems.</p>
+                                    </div>
+                                    <div class="project-meta">
+                                        <span>UX</span>
+                                        <span>Testing</span>
+                                        <span>Build</span>
+                                    </div>
+                                </article>
                             </div>
-
-                            <div class="card">
-
-                                <figure class="card-banner img-holder" style="--width: 334; 
-                                --height: 180;">
-                                    <img src="./assets/images/project-3.png" alt="APP TEST3" 
-                                    width= "334" height="180" class="img-cover">
-
-                                </figure>
-
-                                <div class="card-content">
-                                    
-                                    <span class="label-large card-subtitle">Web APP</span>
-
-                                    <h3 class="title-large card-title">ABC - media APP</h3>
-                                </div>
-
-                                <a href="#" class="state-layer"></a>
-
-                            </div>
-
-                            <div class="card">
-
-                                <figure class="card-banner img-holder" style="--width: 334; 
-                                --height: 180;">
-                                    <img src="./assets/images/project-4.png" alt="APP TEST4" 
-                                    width= "334" height="180" class="img-cover">
-
-                                </figure>
-
-                                <div class="card-content">
-                                    
-                                    <span class="label-large card-subtitle">Web APP</span>
-
-                                    <h3 class="title-large card-title">ABC - media APP</h3>
-                                </div>
-
-                                <a href="#" class="state-layer"></a>
-
-                            </div>
-
-                            <div class="card">
-
-                                <figure class="card-banner img-holder" style="--width: 334; 
-                                --height: 180;">
-                                    <img src="./assets/images/project-5.png" alt="APP TEST5" 
-                                    width= "334" height="180" class="img-cover">
-
-                                </figure>
-
-                                <div class="card-content">
-                                    
-                                    <span class="label-large card-subtitle">Web APP</span>
-
-                                    <h3 class="title-large card-title">ABC - media APP</h3>
-                                </div>
-
-                                <a href="#" class="state-layer"></a>
-
-                            </div>
-
-                            <div class="card">
-
-                                <figure class="card-banner img-holder" style="--width: 334; 
-                                --height: 180;">
-                                    <img src="./assets/images/project-6.png" alt="APP TEST6" 
-                                    width= "334" height="180" class="img-cover">
-
-                                </figure>
-
-                                <div class="card-content">
-                                    
-                                    <span class="label-large card-subtitle">Website</span>
-
-                                    <h3 class="title-large card-title">ABC - media APP</h3>
-                                </div>
-
-                                <a href="#" class="state-layer"></a>
-
-                            </div> -->
-
-                            </div>
-
-
                         </div>
-
                     </section>
 
-
-
-                    <!-- #RESUME -->
-
-                    <section class="section tab-content resume-tab" data-tab-content="resume">
-
+                    <section class="section tab-content resume-tab active" data-tab-content="resume">
                         <div class="container">
+                            <div class="section-heading reveal">
+                                <span class="eyebrow">Experience</span>
+                                <h2>Learning through practice, service, and mentoring.</h2>
+                            </div>
 
-                            <h2 class="section-title title-small"> Experience</h2>
-
-                            <ul class="list">
-
+                            <ul class="experience-list reveal">
                                 <li class="resume-item">
                                     <div class="resume-card">
-
                                         <p class="body-large">Coding TA, Apple Buds, Inc (Orange Apple)</p>
-
                                         <span class="label-medium card-subtitle">11/2025 - Present</span>
-
-                                        <span class="body-medium card-text">Assisted in programming courses and mentored
-                                            students to master coding logic through hands-on projects.</span>
-
+                                        <span class="body-medium card-text">Assisted in programming education and guided students through hands-on coding practice and logic development.</span>
                                     </div>
-
                                 </li>
 
                                 <li class="resume-item">
                                     <div class="resume-card">
-
                                         <p class="body-large">Store Associate, 7-ELEVEn (Taiwan)</p>
-
                                         <span class="label-medium card-subtitle">07/2024 - 09/2024</span>
-
-                                        <span class="body-medium card-text">Managed multi-tasking operations and
-                                            delivered professional customer service under high-pressure
-                                            scenarios.</span>
-
+                                        <span class="body-medium card-text">Managed fast-paced customer service, multi-tasking, and operational efficiency in a high-pressure environment.</span>
                                     </div>
-
                                 </li>
-
                             </ul>
 
-                            <h2 class="section-title title-small">Education</h2>
-                            <ul class="list">
+                            <div class="education-block reveal">
+                                <h2 class="section-title title-small">Education</h2>
+                                <ul class="list">
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">Department of Information and Computer Engineering, Chung Yuan Christian University (Taiwan)</p>
+                                            <span class="label-medium card-subtitle">2024 - 2028</span>
+                                        </div>
+                                    </li>
 
-                                <li class="resume-item">
-                                    <div class="resume-card">
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">Taipei Municipal Neihu Senior High School (Taiwan)</p>
+                                            <span class="label-medium card-subtitle">2021 - 2024</span>
+                                        </div>
+                                    </li>
 
-                                        <p class="body-large">
-                                            Department of Information and Computer Engineering,
-                                            Chung Yuan Christian University(Taiwan)
-                                        </p>
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">Huaxing High School (Taiwan)</p>
+                                            <span class="label-medium card-subtitle">2018 - 2021</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
 
-                                        <span class="label-medium card-subtitle">2024 - 2028</span>
-
-                                    </div>
-
-                                </li>
-
-                                <li class="resume-item">
-                                    <div class="resume-card">
-
-                                        <p class="body-large">
-                                            Taipei Municipal Neihu Senior High School(Taiwan)
-                                        </p>
-
-                                        <span class="label-medium card-subtitle">2021 - 2024</span>
-
-                                    </div>
-
-                                </li>
-
-                                <li class="resume-item">
-                                    <div class="resume-card">
-
-                                        <p class="body-large">
-                                            Huaxing High School(Taiwan)
-                                        </p>
-
-                                        <span class="label-medium card-subtitle">2018 - 2021</span>
-
-                                    </div>
-
-                                </li>
-
-                            </ul>
-
-                            <h2 class="section-title title-small">Skills and Technologies</h2>
-
-                            <ul class="resume-bottom-list">
-
-                                <li class="resume-bottom-item">
-                                    <img src="./assets/images/c++.png" width="30" height="30" loading="lazy" alt="C++"
-                                        class="icon">
-
-                                    <span class="label-medium">C++</span>
-                                </li>
-
-                                <li class="resume-bottom-item">
-                                    <img src="./assets/images/html5.svg" width="28" height="28" loading="lazy"
-                                        alt="HTML5" class="icon">
-
-                                    <span class="label-medium">HTML5</span>
-                                </li>
-
-                                <li class="resume-bottom-item">
-                                    <img src="./assets/images/css3.svg" width="28" height="28" loading="lazy" alt="CSS3"
-                                        class="icon">
-
-                                    <span class="label-medium">CSS3</span>
-                                </li>
-
-                                <li class="resume-bottom-item">
-                                    <img src="./assets/images/javascript.svg" width="28" height="28" loading="lazy"
-                                        alt="JavaScript" class="icon">
-
-                                    <span class="label-medium">JavaScript</span>
-                                </li>
-
-                                <li class="resume-bottom-item">
-                                    <img src="./assets/images/python.png" width="28" height="28" loading="lazy"
-                                        alt="Python" class="icon">
-
-                                    <span class="label-medium">Python</span>
-                                </li>
-
-                                <li class="resume-bottom-item">
-                                    <img src="./assets/images/swift.png" width="28" height="28" loading="lazy"
-                                        alt="Swift" class="icon">
-
-                                    <span class="label-medium">Swift</span>
-                                </li>
-
-                                <li class="resume-bottom-item">
-                                    <img src="./assets/images/github.svg" width="28" height="28" loading="lazy"
-                                        alt="Github" class="icon">
-
-                                    <span class="label-medium">Github</span>
-                                </li>
-
-                                <li class="resume-bottom-item">
-                                    <img src="./assets/images/VS_code.svg" width="28" height="28" loading="lazy"
-                                        alt="VS code" class="icon">
-
-                                    <span class="label-medium">VS code</span>
-                                </li>
-
-                            </ul>
-
-
+                            <div class="skills-block reveal">
+                                <h2 class="section-title title-small">Skills and Technologies</h2>
+                                <ul class="resume-bottom-list">
+                                    <li class="resume-bottom-item"><img src="./assets/images/c++.png" width="30" height="30" loading="lazy" alt="C++" class="icon"><span class="label-medium">C++</span></li>
+                                    <li class="resume-bottom-item"><img src="./assets/images/html5.svg" width="28" height="28" loading="lazy" alt="HTML5" class="icon"><span class="label-medium">HTML5</span></li>
+                                    <li class="resume-bottom-item"><img src="./assets/images/css3.svg" width="28" height="28" loading="lazy" alt="CSS3" class="icon"><span class="label-medium">CSS3</span></li>
+                                    <li class="resume-bottom-item"><img src="./assets/images/javascript.svg" width="28" height="28" loading="lazy" alt="JavaScript" class="icon"><span class="label-medium">JavaScript</span></li>
+                                    <li class="resume-bottom-item"><img src="./assets/images/python.png" width="28" height="28" loading="lazy" alt="Python" class="icon"><span class="label-medium">Python</span></li>
+                                    <li class="resume-bottom-item"><img src="./assets/images/swift.png" width="28" height="28" loading="lazy" alt="Swift" class="icon"><span class="label-medium">Swift</span></li>
+                                    <li class="resume-bottom-item"><img src="./assets/images/github.svg" width="28" height="28" loading="lazy" alt="GitHub" class="icon"><span class="label-medium">GitHub</span></li>
+                                    <li class="resume-bottom-item"><img src="./assets/images/VS_code.svg" width="28" height="28" loading="lazy" alt="VS Code" class="icon"><span class="label-medium">VS Code</span></li>
+                                </ul>
+                            </div>
                         </div>
-
-
                     </section>
 
-
-
-                    <!-- #CONTACT -->
-                    <section class="section tab-content contact-tab" data-tab-content="contact">
-                        <div class="container">
-
-                            <div class="contact-info">
-
+                    <section id="contact" class="section tab-content contact-tab" data-tab-content="contact">
+                        <div class="container contact-layout">
+                            <div class="contact-info reveal">
                                 <h4 class="section-title title-small">Contact Info</h4>
 
                                 <ul class="contact-info-list">
-
                                     <li class="contact-info-item">
-
-                                        <div class="icon-box">
-                                            <span class="material-symbols-outlined" aria-hidden="true">
-                                                mail </span>
-                                        </div>
-
+                                        <div class="icon-box"><span class="material-symbols-outlined" aria-hidden="true">mail</span></div>
                                         <div class="info-content">
-
-                                            <p class="label-small info-title">Mail Us</p>
-
-                                            <a href="mailto:0213eason@gmail.com" class="label-small 
-                                            info-text">0213eason@gmail.com</a>
-
-                                            <a href="mailto:0213eason@gmail.com" class="label-small 
-                                            info-text">0213eason@gmail.com</a>
-
+                                            <p class="label-small info-title">Mail</p>
+                                            <a href="mailto:0213eason@gmail.com" class="label-small info-text">0213eason@gmail.com</a>
                                         </div>
-
-
                                     </li>
 
                                     <li class="contact-info-item">
-
-                                        <div class="icon-box">
-                                            <span class="material-symbols-outlined" aria-hidden="true">
-                                                call </span>
-                                        </div>
-
+                                        <div class="icon-box"><span class="material-symbols-outlined" aria-hidden="true">call</span></div>
                                         <div class="info-content">
-
-                                            <p class="label-small info-title">Contact Us</p>
-
-                                            <a href="tel:+88683929160" class="label-small 
-                                            info-text">+88683929160</a>
-
-                                            <a href="tel:+88683929160" class="label-small 
-                                            info-text">+88683929160</a>
-
+                                            <p class="label-small info-title">Phone</p>
+                                            <a href="tel:+88683929160" class="label-small info-text">+88683929160</a>
                                         </div>
-
-
                                     </li>
 
                                     <li class="contact-info-item">
-
-                                        <div class="icon-box">
-                                            <span class="material-symbols-outlined" aria-hidden="true">
-                                                location_on </span>
-                                        </div>
-
+                                        <div class="icon-box"><span class="material-symbols-outlined" aria-hidden="true">location_on</span></div>
                                         <div class="info-content">
-
                                             <p class="label-small info-title">Address</p>
-
-                                            <a href="#" class="label-small 
-                                            info-text">Taipei, Taiwan</a>
-
+                                            <span class="label-small info-text">Taipei, Taiwan</span>
                                         </div>
-
-
                                     </li>
-
                                 </ul>
 
-                                <h4 class="title-small">Social Info</h4>
-
+                                <h4 class="title-small social-title">Social</h4>
                                 <div class="social-list">
-
-                                    <a href="https://github.com/WinnerYi" class="social-item">
-                                        <svg width="24" height="24" viewBox="0 0 16 16" fill="currentColor"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59
-                                        .4.07.55-.17.55-.38
-                                        0-.19-.01-.82-.01-1.49
-                                        -2.01.37-2.53-.49-2.69-.94
-                                        -.09-.23-.48-.94-.82-1.13
-                                        -.28-.15-.68-.52-.01-.53
-                                        .63-.01 1.08.58 1.23.82
-                                        .72 1.21 1.87.87 2.33.66
-                                        .07-.52.28-.87.51-1.07
-                                        -1.78-.2-3.64-.89-3.64-3.95
-                                        0-.87.31-1.59.82-2.15
-                                        -.08-.2-.36-1.02.08-2.12
-                                        0 0 .67-.21 2.2.82
-                                        .64-.18 1.32-.27 2-.27
-                                        .68 0 1.36.09 2 .27
-                                        1.53-1.04 2.2-.82 2.2-.82
-                                        .44 1.1.16 1.92.08 2.12
-                                        .51.56.82 1.27.82 2.15
-                                        0 3.07-1.87 3.75-3.65 3.95
-                                        .29.25.54.73.54 1.48
-                                        0 1.07-.01 1.93-.01 2.2
-                                        0 .21.15.46.55.38
-                                        A8.013 8.013 0 0016 8
-                                        c0-4.42-3.58-8-8-8z" />
-                                        </svg>
-
+                                    <a href="https://github.com/WinnerYi" class="social-item" aria-label="GitHub">
+                                        <svg width="24" height="24" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
                                     </a>
-
-                                    <a href="https://x.com/Junivle" class="social-item">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M18.244 2H21.552L14.326 10.26L22.828 22H16.16L10.93 14.89
-                                        L4.91 22H1.6L9.33 13.14L1.172 2H8.01L12.73 8.39L18.244 2Z" />
-                                        </svg>
+                                    <a href="https://x.com/Junivle" class="social-item" aria-label="X">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2H21.552L14.326 10.26L22.828 22H16.16L10.93 14.89L4.91 22H1.6L9.33 13.14L1.172 2H8.01L12.73 8.39L18.244 2Z"/></svg>
                                     </a>
-
-                                    <a href="https://www.linkedin.com/in/eason-tsai-8aa7793a5/" class="social-item">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6C1.12 6 0 4.88 0 3.5C0 2.12 1.12 1 2.5 1C3.88 1 4.98 2.12 4.98 3.5ZM0.22 8.99H4.78V24H0.22V8.99ZM7.22 8.99H11.6V10.66H11.68C12.3 9.52 13.9 8.36 16.08 8.36C21.02 8.36 22 11.28 22 16.18V24H17.44V16.92C17.44 14.76 17.4 11.98 14.3 11.98C11.18 11.98 10.78 14.38 10.78 16.76V24H6.22V8.99H7.22Z" />
-                                        </svg>
+                                    <a href="https://www.linkedin.com/in/eason-tsai-8aa7793a5/" class="social-item" aria-label="LinkedIn">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6C1.12 6 0 4.88 0 3.5C0 2.12 1.12 1 2.5 1C3.88 1 4.98 2.12 4.98 3.5ZM0.22 8.99H4.78V24H0.22V8.99ZM7.22 8.99H11.6V10.66H11.68C12.3 9.52 13.9 8.36 16.08 8.36C21.02 8.36 22 11.28 22 16.18V24H17.44V16.92C17.44 14.76 17.4 11.98 14.3 11.98C11.18 11.98 10.78 14.38 10.78 16.76V24H6.22V8.99H7.22Z"/></svg>
                                     </a>
-
-                                    <a href="https://www.instagram.com/mr.tsai_winner/" class="social-item">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.428.403a4.92 4.92 0 011.675 1.093 4.92 4.92 0 011.093 1.675c.163.458.347 1.258.403 2.428.058 1.266.07 1.645.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.428a4.902 4.902 0 01-1.093 1.675 4.902 4.902 0 01-1.675 1.093c-.458.163-1.258.347-2.428.403-1.266.058-1.645.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.428-.403a4.92 4.92 0 01-1.675-1.093 4.92 4.92 0 01-1.093-1.675c-.163-.458-.347-1.258-.403-2.428-.058-1.266-.07-1.645-.07-4.85s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.428a4.902 4.902 0 011.093-1.675 4.902 4.902 0 011.675-1.093c.458-.163 1.258-.347 2.428-.403 1.266-.058 1.645-.07 4.85-.07zm0-2.163C8.741 0 8.332.012 7.052.07 5.773.128 4.87.308 4.068.635a6.987 6.987 0 00-2.55 1.643A6.987 6.987 0 00.635 4.068C.308 4.87.128 5.773.07 7.052.012 8.332 0 8.741 0 12s.012 3.668.07 4.948c.058 1.279.238 2.182.565 2.984a6.987 6.987 0 001.643 2.55 6.987 6.987 0 002.55 1.643c.802.327 1.705.507 2.984.565C8.332 23.988 8.741 24 12 24s3.668-.012 4.948-.07c1.279-.058 2.182-.238 2.984-.565a6.987 6.987 0 002.55-1.643 6.987 6.987 0 001.643-2.55c.327-.802.507-1.705.565-2.984C23.988 15.668 24 15.259 24 12s-.012-3.668-.07-4.948c-.058-1.279-.238-2.182-.565-2.984a6.987 6.987 0 00-1.643-2.55 6.987 6.987 0 00-2.55-1.643c-.802-.327-1.705-.507-2.984-.565C15.668.012 15.259 0 12 0zM12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a3.999 3.999 0 110-7.998 3.999 3.999 0 010 7.998zm6.406-11.845a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z" />
-                                        </svg>
+                                    <a href="https://www.instagram.com/mr.tsai_winner/" class="social-item" aria-label="Instagram">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.428.403a4.92 4.92 0 011.675 1.093 4.92 4.92 0 011.093 1.675c.163.458.347 1.258.403 2.428.058 1.266.07 1.645.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.428a4.902 4.902 0 01-1.093 1.675 4.902 4.902 0 01-1.675 1.093c-.458.163-1.258.347-2.428.403-1.266.058-1.645.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.428-.403a4.92 4.92 0 01-1.675-1.093 4.92 4.92 0 01-1.093-1.675c-.163-.458-.347-1.258-.403-2.428-.058-1.266-.07-1.645-.07-4.85s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.428a4.902 4.902 0 011.093-1.675 4.902 4.902 0 011.675-1.093c.458-.163 1.258-.347 2.428-.403 1.266-.058 1.645-.07 4.85-.07zm0-2.163C8.741 0 8.332.012 7.052.07 5.773.128 4.87.308 4.068.635a6.987 6.987 0 00-2.55 1.643A6.987 6.987 0 00.635 4.068C.308 4.87.128 5.773.07 7.052.012 8.332 0 8.741 0 12s.012 3.668.07 4.948c.058 1.279.238 2.182.565 2.984a6.987 6.987 0 001.643 2.55 6.987 6.987 0 002.55 1.643c.802.327 1.705.507 2.984.565C8.332 23.988 8.741 24 12 24s3.668-.012 4.948-.07c1.279-.058 2.182-.238 2.984-.565a6.987 6.987 0 002.55-1.643 6.987 6.987 0 001.643-2.55c.327-.802.507-1.705.565-2.984C23.988 15.668 24 15.259 24 12s-.012-3.668-.07-4.948c-.058-1.279-.238-2.182-.565-2.984a6.987 6.987 0 00-1.643-2.55 6.987 6.987 0 00-2.55-1.643c-.802-.327-1.705-.507-2.984-.565C15.668.012 15.259 0 12 0zM12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a3.999 3.999 0 110-7.998 3.999 3.999 0 010 7.998zm6.406-11.845a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"/></svg>
                                     </a>
-
                                 </div>
-
                             </div>
 
-                            <div class="contact-form">
-
-                                <h3 class="title-large">Let's Work Together!!</h3>
-
+                            <div class="contact-form reveal">
+                                <h3 class="title-large">Let’s work together</h3>
                                 <form action="" method="post" class="input-wrapper">
-
                                     <input type="text" name="name" placeholder="Name*" required class="input-field">
-
                                     <input type="email" name="email" placeholder="Email*" required class="input-field">
-
-                                    <input type="text" name="subject" placeholder="Subject" required
-                                        class="input-field">
-
-                                    <textarea name="message" placeholder="Message*" required
-                                        class="textarea"></textarea>
-
+                                    <input type="text" name="subject" placeholder="Subject" required class="input-field">
+                                    <textarea name="message" placeholder="Message*" required class="textarea"></textarea>
                                     <button class="btn" type="submit">
                                         <span class="label-large">Send Message</span>
-
                                         <div class="state-layer"></div>
                                     </button>
-
                                 </form>
-
                             </div>
-
-
-
                         </div>
                     </section>
-
                 </div>
-
             </div>
-
         </article>
     </main>
 
-
-
-
-    <!-- #Footer -->
-
     <footer class="footer">
-
         <div class="container">
             <p class="body-medium">@Copyright 蔡Yi</p>
-
         </div>
-
     </footer>
 
-
-
-    <!-- #custom js link -->
-    <script src="/js/script.js"></script>
-
+    <script src="./js/script.js"></script>
 </body>
-
 </html>
