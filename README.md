@@ -1,2 +1,2 @@
 # Portfolio
-my Resume
+my personal Website :)
