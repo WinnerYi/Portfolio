@@ -1384,21 +1384,18 @@ body {
 
 
   .article {
-    position: relative;
-    display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    align-items: flex-start;
+    display: block;
   }
 
   .about-card,
   .primary-tabs {
+    max-width: 500px;
+    margin-inline: 0;
+    margin-block: 24px;
     position: sticky;
-    top: 64px;
+    top: calc(var(--top-bar-height) + 12px);
+    z-index: 2;
   }
-
-  .primary-tabs { z-index: 2; }
-
-
 
   /**
   *  HERO
