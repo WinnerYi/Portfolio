@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs | Yi_Hsun Tsai</title>
+    <meta name="description" content="Notes about frontend development, learning, and building thoughtful digital products.">
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="blog-page">
+    <header class="topbar">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="./index.html#about">About</a>
+            <a href="./blogs.html" aria-current="page">Blogs</a>
+        </nav>
+
+        <button class="icon-btn theme-btn" data-theme-btn aria-label="Toggle theme">
+            <span class="material-symbols-outlined dark" aria-hidden="true">dark_mode</span>
+            <span class="material-symbols-outlined light" aria-hidden="true">light_mode</span>
+            <div class="state-layer"></div>
+        </button>
+    </header>
+
+    <main>
+        <article>
+            <section class="section blog-hero">
+                <div class="container">
+                    <div class="blog-heading reveal">
+                        <span class="eyebrow">Notes and Ideas</span>
+                        <h1 class="display-small">A place to think, build, and share.</h1>
+                        <p class="body-large">Short notes from my journey through frontend development, software engineering, and the small details that make digital products feel thoughtful.</p>
+                    </div>
+
+                    <article class="card blog-featured reveal">
+                        <figure class="card-banner img-holder" style="--width: 640; --height: 360;">
+                            <img src="./assets/images/project1.png" width="640" height="360" alt="A coding project on a laptop" class="img-cover">
+                        </figure>
+                        <div class="card-content">
+                            <span class="label-medium blog-date">Featured note · 2026</span>
+                            <h2 class="title-large card-title">What I am learning while building for the web</h2>
+                            <p class="body-medium card-text">A practical reflection on turning rough ideas into clear interfaces, and why good frontend work starts with understanding the person using it.</p>
+                            <a href="#latest" class="blog-link">Read the note <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+                        </div>
+                    </article>
+
+                    <div id="latest" class="blog-list">
+                        <article class="card blog-card reveal">
+                            <div class="card-content">
+                                <span class="label-medium blog-date">Frontend · 2026</span>
+                                <h2 class="title-large card-title">Designing interfaces that feel easy to use</h2>
+                                <p class="body-medium card-text">How spacing, hierarchy, and small interaction details help a page communicate before a user reads every word.</p>
+                                <a href="#" class="blog-link">Read the note <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+                            </div>
+                        </article>
+
+                        <article class="card blog-card reveal">
+                            <div class="card-content">
+                                <span class="label-medium blog-date">Learning · 2026</span>
+                                <h2 class="title-large card-title">Learning by making small projects</h2>
+                                <p class="body-medium card-text">Why building focused experiments has become my favorite way to understand new tools, patterns, and programming concepts.</p>
+                                <a href="#" class="blog-link">Read the note <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+                            </div>
+                        </article>
+
+                        <article class="card blog-card reveal">
+                            <div class="card-content">
+                                <span class="label-medium blog-date">Process · 2026</span>
+                                <h2 class="title-large card-title">From idea to a practical web product</h2>
+                                <p class="body-medium card-text">A simple workflow for shaping an idea, choosing what matters, and making steady progress without overbuilding.</p>
+                                <a href="#" class="blog-link">Read the note <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="body-medium">@Copyright 蔡Yi</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
